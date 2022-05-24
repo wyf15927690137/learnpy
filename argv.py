@@ -8,6 +8,7 @@ print('this is the third line from Local1')
 s1 = sys.argv[1]
 s2 = sys.argv[2]
 s3 = sys.argv[3]
+print(sys.argv[0])  # return current file path
 print(s1)
 print(s2)
 print(type(s3))  # view the datatype
