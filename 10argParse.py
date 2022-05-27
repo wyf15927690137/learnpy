@@ -11,7 +11,7 @@ parser1.add_argument("b", type=int, help="this is the second number")
 # create a namespace named args1 to store all the positional arguments,which is equal to a dictionary
 args1 = parser1.parse_args()
 
-# python argParse.py -h : view the help information
+# python 10argParse.py -h : view the help information
 sum1 = args1.a * args1.b
 
 print(sum1)
