@@ -15,4 +15,5 @@ def minPathSum(grid) -> int:
 
 grid = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 
-print(minPathSum(grid))
+x = minPathSum(grid)
+print(x)
